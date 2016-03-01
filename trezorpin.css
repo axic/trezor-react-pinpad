@@ -1,0 +1,87 @@
+.trezorpin input:focus,
+.trezorpin select:focus,
+.trezorpin textarea:focus,
+.trezorpin button:focus {
+    outline: none;
+}
+
+.trezorpin {
+    background: #ededed;
+    position: absolute;
+    width: 300px;
+    height: 480px;
+    left: 50%;
+    margin-left: -180px;
+    top: 50%;
+    margin-top: -215px;
+    padding: 30px;
+//      -webkit-box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+//         -moz-box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+//              box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+}
+
+.trezorpin p {
+    font-size: 1m;
+    text-align: center;
+    color: #7e7e7e;
+    margin: 3.5%;
+}
+
+.trezorpin-result {
+    background: #ededed;
+    margin: 3.5%;
+    width: 92%;
+    font-size: 4em;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+}
+
+.trezorpin-button {
+    background: #ededed;
+    color: #7e7e7e;
+    border: none;
+    /*background: linear-gradient(to bottom, #fafafa, #eaeaea);
+      -webkit-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+         -moz-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+              box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);*/
+    border-radius: 50%;
+    font-size: 1.5em;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: 7px 20px;
+    box-shadow: #bbb 0 0 1px 1px;
+}
+
+.empty {
+    visibility: none;
+    box-shadow: none;
+}
+
+.clear, .enter {
+    border-radius: 50%;
+    font-size: 1em;
+}
+
+.trezorpin-button:hover {
+    border-radius: 50%;
+    box-shadow: #506CE8 0 0 1px 1px;
+}
+
+.empty:hover {
+    box-shadow: none;
+}
+
+.clear:hover {
+    box-shadow: red 0 0 1px 1px;
+}
+
+.enter:hover {
+    box-shadow: green 0 0 1px 1px;
+}
+
+.shadow{
+      -webkit-box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+         -moz-box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+              box-shadow: 0px 5px 5px -0px rgba(0,0,0,0.3);
+}

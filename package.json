@@ -1,0 +1,24 @@
+{
+  "name": "trezor-react-pinpad",
+  "version": "0.1.0",
+  "description": "React component for displaying a pinpad for the Trezor hardware wallet.",
+  "main": "trezorpin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axic/trezor-react-pinpad.git"
+  },
+  "keywords": [
+    "trezor",
+    "react",
+    "pinpad"
+  ],
+  "author": "Alex Beregszaszi <alex@rtfs.hu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axic/trezor-react-pinpad/issues"
+  },
+  "homepage": "https://github.com/axic/trezor-react-pinpad#readme"
+}
